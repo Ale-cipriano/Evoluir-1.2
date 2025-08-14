@@ -797,6 +797,12 @@ progress {
   }
 }
 
+.footer {
+  width: 100vw;
+  height: auto;
+}
+
+
 .display-6 {
   font-weight: 300;
   line-height: 1.2;
