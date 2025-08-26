@@ -536,6 +536,19 @@ a>code {
   color: inherit;
 }
 
+section {
+  padding-top: 6rem;   /* Espaço em cima */
+  padding-bottom: 6rem; /* Espaço embaixo */
+}
+
+@media (min-width: 992px) {
+  section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+
 kbd {
   padding: 0.1875rem 0.375rem;
   font-size: 0.875em;
@@ -5933,7 +5946,7 @@ fieldset:disabled .btn {
 .badge {
   --bs-badge-padding-x: 16px;
   --bs-badge-padding-y: 8px;
-  --bs-badge-font-size: 1rem;
+  --bs-badge-font-size: 0.9rem;
   --bs-badge-font-weight: 500;
   --bs-badge-color: #fff;
   --bs-badge-border-radius: 56px;
