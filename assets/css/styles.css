@@ -250,6 +250,27 @@
   font-size: 15px;
 }
 
+/* Reduz o espaçamento vertical entre seções */
+section {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  margin-bottom: 0 !important;
+}
+
+/* Ajusta títulos e textos dentro das seções */
+section h2,
+section p {
+  margin-bottom: 20px;
+}
+
+/* Footer mais próximo da seção anterior */
+footer.footer {
+  margin-top: 40px !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+
 .about ul li {
   padding: 5px 0;
   display: flex;
@@ -2971,6 +2992,7 @@ progress {
   font-size: 0.875em;
   color: var(--bs-secondary-color);
 }
+
 
 .form-control {
   display: block;
